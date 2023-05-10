@@ -1,0 +1,16 @@
+{
+  "name": "squishy-text-3d",
+  "version": "0.1.0",
+  "description": "3D Rendering of Squishy Text",
+  "main": "index.js",
+  "author": "Nnamdi Michael Okpala",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "http-server": "^14.1.1"
+  }
+}

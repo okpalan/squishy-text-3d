@@ -1,0 +1,33 @@
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 600px;
+
+}
+
+canvas {
+    width: inherit;
+    height: inherit;
+    background: #ccc;
+}
+
+.canvas-control {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: calc(800px / 2);
+    height: inherit;
+    background: pink;
+    z-index: 1;
+}
+
+.canvas-control:first-child {
+    left: 0;
+}
+
+.canvas-control:last-child {
+    right: 0;
+}
